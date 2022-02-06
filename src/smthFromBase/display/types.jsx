@@ -26,12 +26,23 @@ export default () => (
             <Box sx={{ p: 1, m: 1, border: '1px solid' }}>flex-column</Box>
         </Box>
 
-        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }} >
-                <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
-                <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
-                <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
-                <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
-            </Box>
+        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 100px)' }} >
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>grid</Box>
+        </Box>
+
+        <Box sx={{
+            display: 'grid', gridAutoFlow: 'row',
+            gridTemplateColumns: 'repeat(5, 1fr)', gridTemplateRows: 'repeat(2, 50px)'
+        }} >
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>autoGrid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>autoGrid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>autoGrid</Box>
+            <Box sx={{ p: 1, m: 1, border: '1px solid' }}>autoGrid</Box>
+        </Box>
+
 
     </>
 )

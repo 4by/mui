@@ -1,5 +1,4 @@
-import Button from './components/button'
-import Test from './components/test'
+import Test from './smthFromBase/test'
 
 function App() {
  
