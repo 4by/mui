@@ -2,7 +2,7 @@ import * as React from 'react';
 import { styled, createTheme, ThemeProvider } from '@mui/system';
 
 // в mui есть свой встроенный styled. принцип работы похож
-
+// но темы задаются по другому
 
 const customTheme = createTheme({
     palette: {
