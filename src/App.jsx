@@ -1,4 +1,4 @@
-import Test from './smthFromBase/test'
+import Test from './test2'
 
 function App() {
  
